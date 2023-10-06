@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/7c58f59291.js" crossorigin="anonymous"></script>
+    <title>FitPal</title>
+</head>
+<body>
+   
+    <div class="navbar">
+        <a href="#" class="logo"><i class='bx bxl-unity' >F<B>P</B></i></a>
+        <div class="toggle" onclick="navToggle();"></div>
+        <ol>
+            <li><a href="#home" onclick="navToggle();">Home</a></li>
+            <li><a href="#about" onclick="navToggle();">About Us</a></li>
+            <li><a href="#workout" onclick="navToggle();">Explore</a></li>
+            <li><a href="#contact" onclick="navToggle();">Contact Us</a></li>
+        </ol>
+    </div>
+
+    <section id="home" class="home veiw">
+        <div class="highlights">
+            <h3>Stronger every day</h3>
+            <h1><b>Fit</b>Pal</h1><br>
+            <p class="tagline">
+                "Welcome to <span><b>FITPAL</b></span>, Your Destination for a Healthier You! Discover the Path to Wellness and Fitness with Us.<br>
+                At <span><b>FITPAL</b></span>, we're committed to helping you achieve your fitness goals. <br>
+                Whether you're looking to lose weight, build muscle, improve your endurance, or enhance your overall well-being, we have the resources, expertise, and motivation you need.<br>
+                Explore Our Services, Access Expert Guidance, and Join Our Thriving Fitness Community Today!"
+            </p>
+            <a href="login.html" target="_self"><button class="join">Sign In</button></a>
+        </div>
+        <div class="banner"></div>
+    </section>
+
+    <section id="about" class="about view">
+        <div class="main">
+            <h2><span>A</span>bout Us</h2>
+            <h6>Welcome to Fitpal - Your Ultimate Destination for Health and Wellness! </h6>
+        </div>
+        <div class="content">
+            <div class="cols">
+                <p><b>A</b>t Fitpal, we are passionate about helping you embark on a journey to a healthier, fitter, and happier you. Our mission is to provide you with the knowledge, tools, and inspiration you need to achieve your fitness goals and lead a life filled with vitality.<br><br>
+                    <b>Who We Are</b>
+                    <br><br>
+                    We are a team of fitness enthusiasts, certified trainers, nutrition experts, and wellness advocates who share a common goal – to empower individuals like you to take charge of your well-being. Our diverse backgrounds and experiences allow us to provide a holistic approach to health and fitness.<br><br>
+                    <b>What We Offer</b>
+                    <br><br>
+                    <span>Expert Advice:</span> Our team is dedicated to bringing you the latest in fitness trends, science-backed advice, and practical tips to help you reach your fitness goals.<br><br>
+                    
+                    <span>Workout Plans:</span> We offer a variety of workout plans tailored to different fitness levels, whether you're a beginner looking to start your fitness journey or an experienced athlete seeking new challenges.<br><br>
+                    
+                    <span>Nutrition Guidance:</span> Discover the importance of a balanced diet, with expert guidance on nutrition, meal planning, and healthy recipes to fuel your body.<br><br>
+                    
+                    <span>Community Support:</span> Join our vibrant community of fitness enthusiasts, where you can connect with like-minded individuals, share your progress, and find motivation to stay on track.</p>
+                    <a href="#">More</a>
+            </div>
+            <div class="cols">
+                <div class="box">
+                    <img src="karsten-winegeart-0Wra5YYVQJE-unsplash.jpg" alt="about">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="contact" class="contact view">
+    <div class="content">
+        <h2><span>C</span>ontact Us</h2>
+        <p>We would love to hear from you and assist you on your fitness journey. Whether you have questions, feedback, or need support, please don't hesitate to reach out to us. Your health and fitness goals are important to us, and we're here to help you every step of the way.
+        </p>
+    </div>
+    <div class="container">
+        <div class="contactinfo">
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="text">
+                    <h3>Phone NO.</h3>
+                    <p>9345782207</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="text">
+                    <h3>Email</h3>
+                    <p>kasjan44@gmail.com</p>
+                </div>
+            </div>
+            <h2 class="txt">Connect with us</h2>
+            <ul class="sci">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+
+            </ul>
+        </div>
+        <div class="contactform">
+            <form>
+                <h2>Send Message</h2>
+                <div class="inputbox">
+                    <input type="text" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputbox">
+                    <input type="text" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="inputbox">
+                    <textarea required="required"></textarea>
+                    <span>Type your message......</span>
+                </div>
+                <div class="inputbox">
+                    <input type="submit" value="Send">  
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</section>
+
+    <div class="cont">
+        <h1 style="color: white;">"Exploration is curiosity put into action."</h1>
+        <div class="movie-list">
+          <div class="movie">
+            <img src="yoga.jpg" alt="Movie 1">
+            <div class="movie-info" style="background: pink;">
+              <h2 class="movie-title">YOGA</h2>
+              <p class="movie-description">Yoga is invigoration in relaxation.Freedom in routine.<br>Confidence through self control.<br>Energy within and energy without.</p>
+              <a href="yoga.html" class="movie-btn">EXPLORE</a>
+            </div>
+          </div>
+          <div class="movie">
+            <img src="aerobics.jpg" alt="Movie 2">
+            <div class="movie-info" style="background: pink;">
+              <h2 class="movie-title">AEROBICS</h2>
+              <p class="movie-description">When aerobic becomes a daily habit<br>strength and confidence follows.<br>So be active and energetic.</p>
+              <a href="aerobics.html" class="movie-btn">EXPLORE</a>
+            </div>
+          </div>
+          <div class="movie">
+            <img src="nutrition.jpg" alt="Movie 3">
+            <div class="movie-info" style="background: pink;">
+              <h2 class="movie-title">HEALTHY NUTRITION</h2>
+              <p class="movie-description">Don't eat less eat right.<br>Health is not about the weight you lose,<br>
+              but about the life you gain.</p>
+              <a href="nutrition.html" class="movie-btn">EXPLORE</a>
+            </div>
+          </div>
+          
+          
+          <!-- Add more movie cards as needed -->
+        </div>
+      </div>
+
+<section class="copyright">
+    &copy: copyright<a href="#">FitPal</a>2023 | All Rights Reserved
+</section>
+<script>
+    window.addEventListener('scroll', function(){
+        const navbar= document.querySelector('.navbar');
+        navbar.classList.toggle("sticky", window.scrollY > 50);
+    });
+
+    const toggle = document.querySelector('.toggle');
+    const menu = document.querySelector('ol');
+
+    function navToggle(){
+        toggle.classList.toggle("active");
+        menu.classList.toggle("active");
+    }
+</script>
+</body>
+</html>
