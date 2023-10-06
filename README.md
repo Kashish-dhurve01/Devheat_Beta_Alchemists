@@ -21,7 +21,7 @@ Fitpal is a fitness website designed to help you achieve your fitness goals. Whe
 
 ## Demo
 
-Check out our live demo at [https://youtu.be/F1LwOlm7-Lw).
+Check out our live demo at (https://youtu.be/F1LwOlm7-Lw).
 
 ## Contributions
 
